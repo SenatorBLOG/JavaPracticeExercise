@@ -1,0 +1,10 @@
+package ch8ex8;
+
+public class PhoneNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

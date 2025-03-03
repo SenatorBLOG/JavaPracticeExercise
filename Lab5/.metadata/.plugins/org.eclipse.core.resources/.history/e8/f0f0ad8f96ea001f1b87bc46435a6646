@@ -1,0 +1,18 @@
+package ch6ex8_quizscire;
+
+import java.util.Scanner;
+
+public class QuizScoreStatistics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter student quiz score.");
+		int score = scanner.nextInt();
+		while(input !=99) {
+			
+		}
+	}
+
+}

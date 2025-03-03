@@ -1,0 +1,30 @@
+package chapter123practice;
+
+import javax.swing.JOptionPane;
+
+public class Chapter3 {
+	/**
+	 * main methhod
+	 * @param args
+	 */
+	
+	public static void main(String[] args) {
+		add();
+	}
+	
+	/**
+	 * this is add method to add two values
+	 */
+	public static void add()
+	{
+		String fValStr = JOptionPane.showInputDialog(null,"Enter first value");
+		double fVal = Double.parseDouble(fValStr);
+		
+		String sValStr = JOptionPane.showInputDialog(null,"Enter second value");
+		double sVal = Double.parseDouble(sValStr);
+		
+		double result = fVal + sVal;
+		//System.out.println("this is the sum);
+		JOptionPane.showMessageDialog(null, "This is the sum " + result);
+	}
+}

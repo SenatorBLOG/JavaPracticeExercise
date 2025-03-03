@@ -1,0 +1,49 @@
+package ch5ex1;
+
+import java.util.Scanner;
+
+public class TestPatient {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Создаем пациентов
+        Patient patient1 = new Patient();
+        Patient patient2 = getData(scanner);
+        Patient patient3 = getData(scanner);
+
+        // Отображаем информацию о пациентах
+        displayPatient(patient1);
+        displayPatient(patient2);
+        displayPatient(patient3);
+
+        scanner.close();  // Закрытие Scanner в конце программы
+    }
+
+    public static Patient getData(Scanner scanner) {
+        System.out.println("Enter patient ID.");
+        int id = scanner.nextInt();
+
+        System.out.println("Enter patient age.");
+        int age = scanner.nextInt();
+
+        scanner.nextLine();  // Consume the leftover newline
+
+        // Запрос данных о группе крови и резус факторе
+        System.out.println("Enter blood type (O, A, B, AB): ");
+        String bloodType = scanner.nextLine();
+
+        System.out.println("Enter Rh factor (+ or -): ");
+        String rhFactor = scanner.nextLine();
+
+        // Создаем объект BloodData с введенными данными
+        BloodData bloodData = new BloodData(bloodType, rhFactor);
+
+        // Создаем объект Patient с заданными данными
+        return new Patient(id, age, bloodData);
+    }
+
+    public static void displayPatient(Patient patient) {
+        System.out.println(patient);
+    }
+}

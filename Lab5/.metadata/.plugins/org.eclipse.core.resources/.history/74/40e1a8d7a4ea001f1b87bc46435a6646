@@ -1,0 +1,28 @@
+package ch6ex12_highschool;
+import java.util.Scanner;
+public class BarChart {
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		Players player1 = new Players("Ali",getPlayer());
+		Players player2 = new Players("Bob");
+		Players player3 = new Players("Cai");
+		Players player4 = new Players("Dan");
+		Players player5 = new Players("Eli");
+		
+		
+		
+		
+		
+	}
+	public static int getPlayer() {
+		System.out.println("Enter points earned by " + player1.name(String name) +">>" 
+				+ player1.getScores());
+		String name = scanner.nextLine();
+	}
+
+}

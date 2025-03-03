@@ -1,0 +1,20 @@
+package chapter123practice;
+
+public class Chapter3 {
+	/**
+	 * main methhod
+	 * @param args
+	 */
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	/**
+	 * this is add method to add two values
+	 */
+	public static void add()
+	{
+		
+	}
+}

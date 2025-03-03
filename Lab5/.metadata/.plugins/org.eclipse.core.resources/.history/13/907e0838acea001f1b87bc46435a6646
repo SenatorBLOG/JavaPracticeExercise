@@ -1,0 +1,23 @@
+package ch6ex12_purchase;
+import java.util.Scanner;
+public class CreatePurchase {
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Purchase purchase1 = new Purchase(1);
+		
+		
+			
+		}
+	public static Purchase getData() {
+		int inputId = 0;
+		while(true) {
+			
+			System.out.println("Enter a number ID (1000-8000).");
+			
+		}
+		}
+
+}

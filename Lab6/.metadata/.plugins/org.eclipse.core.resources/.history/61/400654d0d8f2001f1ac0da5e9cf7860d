@@ -1,0 +1,23 @@
+package ch8ex9;
+
+import java.util.Scanner;
+
+public class PurchaseArray {
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Purchase [] purchase = new Purchase[5];
+		
+		for (int i = 0; i<5; i++) {
+			System.out.println("Enter an invoice number (1000 to 8000): ");
+			int invoice = scanner.nextInt();
+			
+			if (invoice > 8000 && invoice < 1000) {
+				System.out.println("Error. The number must be between 1000 and 8000.");
+				
+			}
+		}
+	}
+
+}

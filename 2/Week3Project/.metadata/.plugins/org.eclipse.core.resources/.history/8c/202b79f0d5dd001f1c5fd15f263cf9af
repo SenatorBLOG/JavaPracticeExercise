@@ -1,0 +1,18 @@
+package Exersice9;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class DaysTilNextMonth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter date (yyyy-mm-dd).");
+		LocalDate date1 = LocalDate.parse(scanner.nextLine());
+		
+		int days = date1.lengthOfMonth();
+		System.out.println("There are " + days + " until +JULY starts");
+	}
+
+}

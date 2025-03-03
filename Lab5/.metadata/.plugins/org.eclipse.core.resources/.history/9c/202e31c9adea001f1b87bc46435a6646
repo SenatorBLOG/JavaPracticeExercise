@@ -1,0 +1,25 @@
+package ch6ex12_purchase;
+import java.util.Scanner;
+public class CreatePurchase {
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Purchase purchase1 = new Purchase(1);
+		
+		
+			
+		}
+	public static Purchase getData() {
+		
+			do {
+			System.out.println("Enter a number ID (1000-8000).");
+			int inputId = scanner.nextInt();
+			if(inputId < 1000 || inputId > 8000) {
+				System.out.println("Incorrect iD ( must be between 1000-8000).");
+			}while(inputId < 1000 || inputId > 8000);
+			
+		}
+
+}

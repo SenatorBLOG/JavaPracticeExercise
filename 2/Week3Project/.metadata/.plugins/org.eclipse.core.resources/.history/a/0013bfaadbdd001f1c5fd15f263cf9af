@@ -1,0 +1,10 @@
+package Quiz1Practice;
+
+public class EventPlanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

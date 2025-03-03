@@ -1,0 +1,19 @@
+package ch8ex10;
+
+public class DrugTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 3;
+		int employee[] = new int[num];
+		
+		for (int i = 0; i < num; i++) {
+			employee[i] = 1 + (int)(Math.random() * num);
+		}
+		for (int e : employee) {
+			System.out.println(e);
+		}
+		
+	}
+
+}

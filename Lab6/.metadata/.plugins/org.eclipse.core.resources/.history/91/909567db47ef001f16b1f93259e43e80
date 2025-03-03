@@ -1,0 +1,32 @@
+package ch8ex6;
+import java.util.Scanner;
+
+public class InputGrades {
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student[] student = new Student[5];
+		
+		for(int i =0;i<10;i++)
+		{
+			System.out.println("Enter student ID for " + (i+1)  + " student.");
+			int id = scanner.nextInt();
+			student[i] = new Student(id);
+			
+			for( int  j =0;j<5;j++) {
+				System.out.println("Enter course ID for " + (j+1) + " course.");
+			}
+		}
+		System.out.println("");
+		
+		
+	}
+	public static void addStudent() {
+		
+		System.out.println("Enter a data of the student.");
+		
+	}
+
+}

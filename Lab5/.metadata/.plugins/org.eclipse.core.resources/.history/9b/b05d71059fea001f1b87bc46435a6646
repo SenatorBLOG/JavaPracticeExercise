@@ -1,0 +1,26 @@
+package ch6ex12_highschool;
+
+public class Players {
+private String Name;
+private int Scores;
+public Players(String name, int scores) {
+
+	Name = name;
+	Scores = scores;
+}
+public String getName() {
+	return Name;
+}
+public void setName(String name) {
+	Name = name;
+}
+public int getScores() {
+	return Scores;
+}
+public void setScores(int scores) {
+	Scores = scores;
+}
+public void display() {
+	System.out.println(Name + Scores);
+}
+}

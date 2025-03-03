@@ -1,0 +1,20 @@
+package ch5ex1;
+
+import java.util.Scanner;
+
+public class TestPatient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Patient patient1 = new Patient();
+		Patient patient2 = getData();
+		Patient patient3 = new Patient();
+		
+	}
+	public static Patient getData() {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("");
+	}
+
+}

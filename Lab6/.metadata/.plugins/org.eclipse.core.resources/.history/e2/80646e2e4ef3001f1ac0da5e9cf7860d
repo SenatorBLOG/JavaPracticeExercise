@@ -1,0 +1,8 @@
+package MultiFeature_DataManagmentApp;
+
+public class Employee {
+	private int idNumber;
+	private String name;
+	private double annualSale;
+	private CompletedCourses  course[];
+}

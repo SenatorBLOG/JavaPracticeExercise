@@ -1,0 +1,24 @@
+package ch6ex3;
+
+import java.util.Scanner;
+
+public class Factorials_3ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter a number for rfactorial.");
+		int x = scanner.nextInt();
+		
+		while(x<16) {
+			
+			for (int i = 0;x<16;i++) {
+				x = (x * i);
+			}
+			
+			
+		}
+	}
+
+}

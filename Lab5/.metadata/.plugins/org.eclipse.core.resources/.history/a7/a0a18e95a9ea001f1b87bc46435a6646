@@ -1,0 +1,21 @@
+package ch6ex12_purchase;
+
+public class Purchase {
+	private int number;
+	private double sale;
+	private double saleTax;
+	private static final double TAX = 1.05;
+	
+	public Purchase(double saleTax) {
+		setSale(sale);
+	}
+	
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	public void setSale(double sale) {
+		this.sale = sale*TAX;
+		
+	}
+	
+}

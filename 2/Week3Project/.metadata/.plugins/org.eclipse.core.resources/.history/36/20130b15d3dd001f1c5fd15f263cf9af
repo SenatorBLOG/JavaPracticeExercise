@@ -1,0 +1,10 @@
+package Exersice9;
+
+public class DaysTilNextMonth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

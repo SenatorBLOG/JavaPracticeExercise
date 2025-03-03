@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+/Users/mihailsenatorov/Documents/Java/2/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+2708005882.index
+1348983215.index
+817314435.index
+1841488740.index
