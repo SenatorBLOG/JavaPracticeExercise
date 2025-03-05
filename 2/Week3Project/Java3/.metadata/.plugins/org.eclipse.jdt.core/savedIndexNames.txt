@@ -1,8 +1,0 @@
-INDEX VERSION 1.134+/Users/mihailsenatorov/Documents/Java/2/Week3Project/Java3/.metadata/.plugins/org.eclipse.jdt.core
-1349947650.index
-676482488.index
-2708005882.index
-1348983215.index
-1945621269.index
-817314435.index
-1865797976.index

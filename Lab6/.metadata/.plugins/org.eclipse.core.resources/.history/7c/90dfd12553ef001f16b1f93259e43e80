@@ -1,7 +1,0 @@
-package ch8ex7;
-
-public class Friend {
-	private String name;
-	private int bday;
-	
-}

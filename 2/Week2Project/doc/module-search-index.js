@@ -1,1 +1,0 @@
-moduleSearchIndex = [{"l":"Week2Project"}];updateSearchResults();

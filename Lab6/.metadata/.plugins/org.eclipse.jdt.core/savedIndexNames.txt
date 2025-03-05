@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+/Users/mihailsenatorov/Documents/Java/Lab6/.metadata/.plugins/org.eclipse.jdt.core
-379735100.index
-623045888.index
-2618956573.index
