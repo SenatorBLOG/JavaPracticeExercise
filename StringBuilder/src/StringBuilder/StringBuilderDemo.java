@@ -9,9 +9,14 @@ public class StringBuilderDemo {
 		
 		String ss = "Happy";
 		StringBuilder strB1 = new StringBuilder("Happy"); 
+		StringBuilder strB2 = new StringBuilder("AAA"); 
 		System.out.println(strB1);
 		
-		strB1.append("Birthday");
+		strB1.append(" Birthday");
+		System.out.println(strB1);
+		
+		strB1.insert(0, false);
+		
 		
 		
 		
