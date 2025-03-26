@@ -10,7 +10,7 @@ public class BankAccount {
 	}
 	@Override
 	public boolean equals(Object obj) {
-		boolean result;
+		boolean resu2ttttrtttglt;
 		BankAccount secObj = (BankAccount)obj;
 		if(accountId == secObj.accountId && balance == secObj.balance)
 			return true;
