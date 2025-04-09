@@ -12,7 +12,7 @@ public class VehicleManagerApp {
      System.out.println("---------------------------");
 
      while (true) {
-         System.out.println("\nWould you like to add a car? (yes/no)");
+         System.out.println("\nWould you lie to add a car? (yes/no)");
          String response = scanner.nextLine().toLowerCase();
          
          if (!response.equals("yes")) {
