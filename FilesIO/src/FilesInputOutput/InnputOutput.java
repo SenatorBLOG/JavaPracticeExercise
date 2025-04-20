@@ -14,24 +14,37 @@ public class InnputOutput {
 		
 	}
 	public static void readFromFile2() throws FileNotFoundException {
-		File file = new File("Values.txt");
-		Scanner readFile = new Scanner(file);
+        File file = new File("Values.txt");
+        Scanner readFile = new Scanner(file);
+        
+        while (readFile.hasNext()) {
+            String line = readFile.nextLine();
+            String[] strArr = line.split(" ");
+            
+            int sum = 0;
+            int count = 0;
+            
+            // Parse integers and calculate the sum
+            for (String s : strArr) {
+                try {
+                    int val = Integer.parseInt(s); // Parse each value to integer
+                    sum += val;
+                    count++;
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid number: " + s);
+                }
+            }
+            
+            if (count > 0) {
+                double avg = (double) sum / count; // Calculate the average
+                System.out.println("Average: " + avg);
+            }
+        }
+        readFile.close();
+    }
+
 		
-		while(readFile.hasNext()) {
-			String line = readFile.nextLine();
-			
-			String[] strArr = line.split(" ");
-			for(String s : strArr[]) {
-				
-			}
-			
-			int val = Integer.parseInt(line);
-			double avg = val /3;
-			System.out.println(avg);
-		}
-		readFile.close();
-		
-	}
+	
 	public static void readFromFile() throws FileNotFoundException {
 		File file = new File("StudentInfo.txt");
 		Scanner readFile = new Scanner(file);
