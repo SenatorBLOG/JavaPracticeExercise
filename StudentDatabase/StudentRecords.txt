@@ -1,0 +1,8 @@
+Student ID 132
+Email: qwe@domain.com
+First name: qwe
+Last name: asd
+Address: adas
+Program: ARTS
+GPA: 2
+-------------------------
