@@ -128,8 +128,6 @@ public class WindowBuilder extends JFrame {
 		
 		btnShowMessage = new JButton("Show Message");
 		
-		
-		
 		btnClose = new JButton("Close App");
 		
 		textInputName = new JTextField();
