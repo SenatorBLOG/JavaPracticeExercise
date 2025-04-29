@@ -1,0 +1,8 @@
+LambertsVacationRentals.VacationRentals@7bef9a57
+LambertsVacationRentals.VacationRentals@21f813fc
+LambertsVacationRentals.VacationRentals@7b150e19
+LambertsVacationRentals.VacationRentals@5ee32518
+VacationRentals [location=Vancouver, parkside=Parkside for $600 per week, meal=Included, numberOfBedrooms=3 Bedroom]
+VacationRentals [location=Montreal, parkside=Lakeside for $825 per week, meal=Included, numberOfBedrooms=2 Bedroom]
+VacationRentals [location=Montreal, parkside=Parkside for $600 per week, meal=Not included, numberOfBedrooms=1 Bedroom]
+VacationRentals [location=Vancouver, parkside=Poolside for $750 per week, meal=Not included, numberOfBedrooms=3 Bedroom]
